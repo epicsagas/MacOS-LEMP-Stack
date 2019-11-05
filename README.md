@@ -176,7 +176,7 @@ location ~ \.php$ {
 server {
     listen 80;
     server_name main.test;
-    root ~/workspace/www/main/public;
+    root /Users/name/workspace/www/main/public;
     index index.html index.htm index.php;
 
     access_log /usr/local/var/log/nginx/main.test-access.log combined;
