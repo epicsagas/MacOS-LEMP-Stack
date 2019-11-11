@@ -49,6 +49,8 @@ slow_query_log_file=/usr/local/var/log/mariadb/mariadb-slow.log
 - Fix Missing Headers Compiling on macOS Mojave : https://donatstudios.com/MojaveMissingHeaderFiles
 ``` sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target / ```
 
+- MacOS 10.15 Catalina build error could handle with SIP disable (temporar solution) check this [link](https://github.com/phpenv/phpenv/issues/98#issuecomment-552326887) 
+
 - export path to `.bash_profile`
 ```
 # phpenv
