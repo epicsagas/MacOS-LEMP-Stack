@@ -1,4 +1,4 @@
-# Install LEMP stack on MacOS
+# Install LEMP stack on MacOS (with phpenv)
 
 ## Install Homebrew
 
